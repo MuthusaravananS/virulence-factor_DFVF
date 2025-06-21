@@ -34,3 +34,11 @@ The following pre-indexed databases from the DFVF Fungal Virulence Database are 
     All (2058 Entries - a combined database of all above)
 
 These databases are assumed to be pre-indexed using mmseqs createdb and mmseqs createindex and stored in a designated directory.
+
+🙏 Acknowledgments
+
+A huge thank you to:
+
+    The incredible MMseqs2 team for creating such a powerful and efficient sequence search tool.
+    The DFVF Fungal Virulence Database for providing invaluable biological data.
+    Gradio for making it incredibly simple to build beautiful, interactive web UIs.
