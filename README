@@ -1,0 +1,36 @@
+MMseqs2 Search GUI
+
+A user-friendly Gradio-based graphical interface for performing sequence similarity searches using MMseqs2 against various pre-indexed databases from the DFVF Fungal Virulence Database.
+
+Description
+
+This project provides a simple, interactive web interface built with Gradio, allowing researchers to easily query biological sequences against specialized databases using the powerful MMseqs2 suite. It abstracts the command-line complexities of MMseqs2, making it accessible to a broader audience. The primary databases included are derived from the DFVF Fungal Virulence Database, focusing on animal, herb, plant, Vertebrata, and Invertebrata entries.
+Features
+
+    Intuitive GUI: Easy selection of target databases via a web interface.
+
+    MMseqs2 Integration: Leverages the speed and accuracy of MMseqs2 for sequence similarity searches.
+
+    Pre-indexed Databases: Ready-to-use databases from the DFVF Fungal Virulence Database.
+
+    Flexible Input: Allows direct pasting of sequences or uploading of FASTA files.
+
+    Results Display: Presents search results in an easily parsable format (e.g., tabular).
+
+Databases
+
+The following pre-indexed databases from the DFVF Fungal Virulence Database are available for selection:
+
+    Animals (358 Entries)
+
+    Herb (475 Entries)
+
+    Plants (158 Entries)
+
+    Vertebrata (944 Entries)
+
+    Invertebrata (45 Entries)
+
+    All (2058 Entries - a combined database of all above)
+
+These databases are assumed to be pre-indexed using mmseqs createdb and mmseqs createindex and stored in a designated directory.
